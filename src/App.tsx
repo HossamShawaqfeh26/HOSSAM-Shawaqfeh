@@ -915,7 +915,7 @@ function Campaigns() {
 
 export default function App() {
   return (
-    <Router basename="/HOSSAM-Shawaqfeh/">
+    <Router>
       <div className="min-h-screen bg-[#070b14] text-white font-sans selection:bg-white/20">
         <Routes>
           <Route path="/" element={<Home />} />
